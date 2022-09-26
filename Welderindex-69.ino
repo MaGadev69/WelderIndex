@@ -5,7 +5,6 @@ LiquidCrystal_I2C lcd(0x3f,20,4);
 //150 --> 0-30seg
 //300 --> 30-60seg
 //450 --> 60-90seg
-//  Next define your parameters about your motor and gearing
 #define StepsPerRevolution 200  // Change this to represent the number of steps
                                 //   it takes the motor to do one full revolution
                                 //   200 is the result of a 1.8 degree per step motor
